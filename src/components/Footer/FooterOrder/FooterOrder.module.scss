@@ -1,0 +1,129 @@
+.footer {
+  width: 100%;
+  background: rgba(26, 66, 66, 1); /* màu giống hình */
+  padding: 50px 0;
+  color: #ffffff;
+  font-family: Playfair Display;
+}
+
+.container {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* LEFT */
+.left {
+  flex: 1;
+  min-width: 220px;
+}
+
+.logoBlock {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.brandName {
+  font-family: Playfair Display;
+font-weight: 700;
+font-size: 60px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.copyText {
+  font-family: Playfair Display;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+
+  opacity: 0.8;
+}
+
+/* MIDDLE */
+.middle {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  min-width: 320px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.col li {
+  margin-bottom: 8px;
+}
+
+.col a {
+  text-decoration: none;
+  color: #e6e6e6;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.col a:hover {
+  color: #ffffff;
+}
+
+/* RIGHT */
+.right {
+  min-width: 180px;
+}
+
+.social {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.social a {
+  display: inline-flex;
+  color: #fff;
+  opacity: 0.8;
+  transition: 0.25s;
+}
+
+.social a:hover {
+  opacity: 1;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .middle {
+    justify-content: flex-start;
+    gap: 60px;
+  }
+}

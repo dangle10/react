@@ -1,0 +1,64 @@
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-width: 0; /* 🔥 FIX TRÀN FLEX */
+}
+
+.content {
+  min-width: 0;
+}
+
+/* ===== TITLE FIX ===== */
+.title {
+  font-family: Libre Baskerville;
+  font-weight: 600;
+  font-size: 28px; /* 🔥 nhỏ lại */
+  line-height: 45px;
+  color: rgba(39, 39, 39, 1);
+
+  margin: 32px 0 16px 0;
+  padding: 0 50px; /* đúng Figma */
+}
+
+.title2 {
+  font-family: Libre Baskerville;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 45px;
+
+  color: rgba(39, 39, 39, 1);
+  margin: 32px 0 16px 0;
+  padding: 0 50px;
+}
+
+/* ===== TRENDING FIX ===== */
+.trendingContainer {
+  display: flex;
+  gap: 24px; /* giảm từ 50 → đẹp hơn */
+  padding: 0 50px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  min-width: 0; /* 🔥 cực quan trọng */
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  & > * {
+    flex: 0 0 250px;
+    min-width: 250px;
+  }
+}
+
+/* responsive */
+@media (max-width: 1024px) {
+  .trendingContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    overflow-x: visible;
+  }
+}

@@ -1,0 +1,38 @@
+.wishListContainer{
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 25px;
+}
+
+.titleLeft {
+  font-family: Playfair Display;
+font-weight: 700;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+
+  color: #000;
+}
+
+.titleRight {
+ font-family: Playfair Display;
+font-weight: 700;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+  color: #002b65;
+}
+.itemsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    gap: 20px;
+    row-gap: 30px;
+}

@@ -1,0 +1,4 @@
+- <strong>Props (Properties):</strong> Là cách để truyền dữ liệu từ component cha xuống component con. Props giống như "đối số" của một hàm, giúp component con hiển thị nội dung khác nhau dựa trên dữ liệu nhận được.
+- <strong>Component Reuse (Tái sử dụng):</strong> Là khả năng thiết kế một component một lần và sử dụng lại nhiều lần ở các vị trí khác nhau với dữ liệu khác nhau (thông qua Props). Việc này giúp code gọn gàng, dễ bảo trì và tránh lặp lại.
+- <strong>Event Handling (Xử lý sự kiện):</strong> Là cách React phản hồi các tương tác từ người dùng (như click, nhập liệu, di chuột). Trong React, ta truyền một hàm trực tiếp vào thuộc tính của element, ví dụ: onClick={handleClick}.
+- <strong>Conditional Rendering (Sử dụng điều kiện):</strong> Là kỹ thuật hiển thị các giao diện khác nhau dựa trên một điều kiện cụ thể (dùng if, toán tử ba ngôi ? :, hoặc toán tử &&). Ví dụ: Nếu đã đăng nhập thì hiện "Chào bạn", nếu chưa thì hiện nút "Đăng nhập".

@@ -1,0 +1,903 @@
+[
+  {
+    "id": 0,
+    "MFG": "09/10/2025",
+    "name": "Basic Cotton T-Shirt",
+    "brand": "UniStyle",
+    "price": 19900,
+    "discount": 10,
+    "category": "T-Shirt ",
+    "sellerName": "UniStyle Official",
+    "size": {
+      "XS": 12,
+      "S": 20,
+      "M": 30,
+      "L": 25,
+      "XL": 15
+    },
+    "thumbnail": "https://images.pexels.com/photos/802417/pexels-photo-802417.jpeg",
+    "image": [
+      {
+        "color": "White",
+        "colorImage": "https://images.pexels.com/photos/802417/pexels-photo-802417.jpeg"
+      }
+    ],
+    "Product_details": {
+      "Product_detail": "Basic cotton T-shirt for daily wear",
+      "Size_Fit": "Regular fit",
+      "Material_Care": "100% cotton, machine wash"
+    },
+    "specifications": {
+      "sleeveLength": "Short Sleeve",
+      "printType": "Solid",
+      "length": "Regular",
+      "liningFabric": "None",
+      "hemline": "Straight",
+      "type": "Casual",
+      "collar": "Round Neck",
+      "closure": "None",
+      "numberOfPockets": 0,
+      "occasion": "Casual"
+    },
+    "reviewRating": {
+      "rating": 4.3,
+      "verifiedBuyers": 120,
+      "reviews": []
+    },
+    "relatedProducts": [
+      1,
+      2,
+      3
+    ],
+    "Customer_Also_Like": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "id": 1,
+    "MFG": "09/11/2025",
+    "name": "Premium Black T-Shirt",
+    "brand": "UniStyle",
+    "price": 24900,
+    "discount": 15,
+    "category": "T-Shirt",
+    "sellerName": "FitWear Shop",
+    "size": {
+      "XS": 8,
+      "S": 22,
+      "M": 34,
+      "L": 20,
+      "XL": 17
+    },
+    "thumbnail": "https://images.pexels.com/photos/1525852/pexels-photo-1525852.jpeg",
+    "image": [
+      {
+        "color": "Black",
+        "colorImage": "https://images.pexels.com/photos/1525852/pexels-photo-1525852.jpeg"
+      }
+    ],
+    "Product_details": {
+      "Product_detail": "High-quality black T-shirt",
+      "Size_Fit": "Slim fit",
+      "Material_Care": "Cotton blend"
+    },
+    "specifications": {
+      "sleeveLength": "Short",
+      "printType": "None",
+      "length": "Regular",
+      "liningFabric": "None",
+      "hemline": "Straight",
+      "type": "Basic",
+      "collar": "Round",
+      "closure": "None",
+      "numberOfPockets": 0,
+      "occasion": "Daily"
+    },
+    "reviewRating": {
+      "rating": 4.6,
+      "verifiedBuyers": 210,
+      "reviews": []
+    },
+    "relatedProducts": [],
+    "Customer_Also_Like": []
+  },
+  {
+    "id": 2,
+    "MFG": "19/03/2025",
+    "name": "Graphic Printed Tee",
+    "brand": "StreetX",
+    "price": 29900,
+    "discount": 20,
+    "category": "T-Shirt",
+    "sellerName": "StreetX Store",
+    "size": {
+      "XS": 10,
+      "S": 18,
+      "M": 25,
+      "L": 33,
+      "XL": 19
+    },
+    "thumbnail": "https://images.pexels.com/photos/3820312/pexels-photo-3820312.jpeg",
+    "image": [
+      {
+        "color": "Black",
+        "colorImage": "https://images.pexels.com/photos/3820312/pexels-photo-3820312.jpeg"
+      }
+    ],
+    "Product_details": {
+      "Product_detail": "Street-style printed T-shirt",
+      "Size_Fit": "Loose fit",
+      "Material_Care": "Hand wash recommended"
+    },
+    "specifications": {
+      "sleeveLength": "Short",
+      "printType": "Graphic",
+      "length": "Regular",
+      "liningFabric": "None",
+      "hemline": "Curved",
+      "type": "Street Wear",
+      "collar": "Round",
+      "closure": "None",
+      "numberOfPockets": 0,
+      "occasion": "Casual"
+    },
+    "reviewRating": {
+      "rating": 4.2,
+      "verifiedBuyers": 85,
+      "reviews": []
+    },
+    "relatedProducts": [
+      9,
+      10,
+      12,
+      14
+    ],
+    "Customer_Also_Like": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": 3,
+    "MFG": "20/03/2025",
+    "name": "Oversized White Tee",
+    "brand": "UniStyle",
+    "price": 25900,
+    "discount": 5,
+    "category": "T-Shirt",
+    "sellerName": "MonoWear Vietnam",
+    "size": {
+      "XS": 5,
+      "S": 15,
+      "M": 40,
+      "L": 35,
+      "XL": 23
+    },
+    "thumbnail": "https://images.pexels.com/photos/289998/pexels-photo-289998.jpeg",
+    "image": [
+      {
+        "color": "White",
+        "colorImage": "https://images.pexels.com/photos/289998/pexels-photo-289998.jpeg"
+      }
+    ],
+    "Product_details": {
+      "Product_detail": "Trendy oversized T-shirt",
+      "Size_Fit": "Oversized",
+      "Material_Care": "Soft cotton"
+    },
+    "specifications": {
+      "sleeveLength": "Short",
+      "printType": "Solid",
+      "length": "Long",
+      "liningFabric": "None",
+      "hemline": "Straight",
+      "type": "Fashion",
+      "collar": "Round",
+      "closure": "None",
+      "numberOfPockets": 0,
+      "occasion": "Street"
+    },
+    "reviewRating": {
+      "rating": 4.5,
+      "verifiedBuyers": 190,
+      "reviews": []
+    },
+    "relatedProducts": [
+      2,
+      0,
+      5
+    ],
+    "Customer_Also_Like": [
+      7,
+      6,
+      8,
+      9
+    ]
+  },
+  {
+    "id": 4,
+    "MFG": "01/03/2025",
+    "name": "V-Neck Cotton Tee",
+    "brand": "ClassicWear",
+    "price": 21900,
+    "discount": 8,
+    "category": "T-Shirt",
+    "sellerName": "ClassicWear",
+    "size": {
+      "XS": 14,
+      "S": 18,
+      "M": 22,
+      "L": 27,
+      "XL": 16
+    },
+    "thumbnail": "https://images.pexels.com/photos/3822114/pexels-photo-3822114.jpeg",
+    "image": [
+      {
+        "color": "Blue",
+        "colorImage": "https://images.pexels.com/photos/3822114/pexels-photo-3822114.jpeg"
+      }
+    ],
+    "Product_details": {
+      "Product_detail": "V-neck soft cotton T-shirt",
+      "Size_Fit": "Regular",
+      "Material_Care": "Machine wash cold"
+    },
+    "specifications": {
+      "sleeveLength": "Short",
+      "printType": "None",
+      "length": "Regular",
+      "liningFabric": "None",
+      "hemline": "Straight",
+      "type": "V-neck",
+      "collar": "V-neck",
+      "closure": "None",
+      "numberOfPockets": 0,
+      "occasion": "Casual"
+    },
+    "reviewRating": {
+      "rating": 4.1,
+      "verifiedBuyers": 75,
+      "reviews": []
+    },
+    "relatedProducts": [
+      12,
+      13,
+      14
+    ],
+    "Customer_Also_Like": [
+      9,
+      10,
+      12,
+      14
+    ]
+  },
+  {
+    "id": 5,
+    "MFG": "24/03/2025",
+    "name": "Sport Dry-Fit Tee",
+    "brand": "UniStyle",
+    "price": 27900,
+    "discount": 12,
+    "category": "T-Shirt",
+    "sellerName": "RunX Official",
+    "size": {
+      "XS": 7,
+      "S": 19,
+      "M": 29,
+      "L": 31,
+      "XL": 12
+    },
+    "thumbnail": "https://images.pexels.com/photos/2916820/pexels-photo-2916820.jpeg",
+    "image": [
+      {
+        "color": "Gray",
+        "colorImage": "https://images.pexels.com/photos/2916820/pexels-photo-2916820.jpeg"
+      }
+    ],
+    "Product_details": {
+      "Product_detail": "Moisture-wicking athletic T-shirt",
+      "Size_Fit": "Athletic",
+      "Material_Care": "Polyester blend"
+    },
+    "specifications": {
+      "sleeveLength": "Short",
+      "printType": "Minimal",
+      "length": "Regular",
+      "liningFabric": "None",
+      "hemline": "Straight",
+      "type": "Sport",
+      "collar": "Round",
+      "closure": "None",
+      "numberOfPockets": 0,
+      "occasion": "Sport"
+    },
+    "reviewRating": {
+      "rating": 4.7,
+      "verifiedBuyers": 300,
+      "reviews": []
+    },
+    "relatedProducts": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "Customer_Also_Like": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 6,
+    "MFG": "04/03/2025",
+    "name": "Striped Casual Tee",
+    "brand": "UrbanFit",
+    "price": 239000,
+    "discount": 10,
+    "category": "T-Shirt",
+    "sellerName": "UrbanFit Store",
+    "size": {
+      "XS": 11,
+      "S": 17,
+      "M": 23,
+      "L": 30,
+      "XL": 14
+    },
+    "thumbnail": "https://images.pexels.com/photos/2306213/pexels-photo-2306213.jpeg",
+    "image": [
+      {
+        "color": "Navy",
+        "colorImage": "https://images.pexels.com/photos/2306213/pexels-photo-2306213.jpeg"
+      }
+    ],
+    "Product_details": {
+      "Product_detail": "Striped casual T-shirt",
+      "Size_Fit": "Slim",
+      "Material_Care": "Soft cotton"
+    },
+    "specifications": {
+      "sleeveLength": "Short",
+      "printType": "Stripes",
+      "length": "Regular",
+      "liningFabric": "None",
+      "hemline": "Straight",
+      "type": "Casual",
+      "collar": "Round",
+      "closure": "None",
+      "numberOfPockets": 0,
+      "occasion": "Everyday"
+    },
+    "reviewRating": {
+      "rating": 4,
+      "verifiedBuyers": 60,
+      "reviews": []
+    },
+    "relatedProducts": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "Customer_Also_Like": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "id": 7,
+    "MFG": "19/05/2025",
+    "name": "Beige Minimal Tee",
+    "brand": "UniStyle",
+    "price": 22900,
+    "discount": 10,
+    "category": "T-Shirt",
+    "sellerName": "LiteWear",
+    "size": {
+      "XS": 9,
+      "S": 14,
+      "M": 26,
+      "L": 28,
+      "XL": 17
+    },
+    "thumbnail": "https://images.pexels.com/photos/4553272/pexels-photo-4553272.jpeg",
+    "image": [
+      {
+        "color": "Beige",
+        "colorImage": "https://images.pexels.com/photos/4553272/pexels-photo-4553272.jpeg"
+      }
+    ],
+    "Product_details": {
+      "Product_detail": "Minimal beige tee",
+      "Size_Fit": "Regular",
+      "Material_Care": "Cotton"
+    },
+    "specifications": {
+      "sleeveLength": "Short",
+      "printType": "Solid",
+      "length": "Regular",
+      "liningFabric": "None",
+      "hemline": "Straight",
+      "type": "Basic",
+      "collar": "Round",
+      "closure": "None",
+      "numberOfPockets": 0,
+      "occasion": "Casual"
+    },
+    "reviewRating": {
+      "rating": 4.4,
+      "verifiedBuyers": 140,
+      "reviews": []
+    },
+    "relatedProducts": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "Customer_Also_Like": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 8,
+    "MFG": "08/09/2025",
+    "name": "Pastel Pink Tee",
+    "brand": "SoftWear",
+    "price": 79900,
+    "discount": 5,
+    "category": "T-Shirt",
+    "sellerName": "SoftWear VN",
+    "size": {
+      "XS": 6,
+      "S": 12,
+      "M": 24,
+      "L": 29,
+      "XL": 10
+    },
+    "thumbnail": "https://images.pexels.com/photos/6787202/pexels-photo-6787202.jpeg",
+    "image": [
+      {
+        "color": "Pink",
+        "colorImage": "https://images.pexels.com/photos/6787202/pexels-photo-6787202.jpeg"
+      }
+    ],
+    "Product_details": {
+      "Product_detail": "Soft pastel T-shirt",
+      "Size_Fit": "Regular",
+      "Material_Care": "Soft cotton blend"
+    },
+    "specifications": {
+      "sleeveLength": "Short",
+      "printType": "Solid",
+      "length": "Regular",
+      "liningFabric": "None",
+      "hemline": "Straight",
+      "type": "Casual",
+      "collar": "Round",
+      "closure": "None",
+      "numberOfPockets": 0,
+      "occasion": "Daily"
+    },
+    "reviewRating": {
+      "rating": 4.2,
+      "verifiedBuyers": 110,
+      "reviews": []
+    },
+    "relatedProducts": [
+      1,
+      2,
+      3
+    ],
+    "Customer_Also_Like": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 9,
+    "MFG": "05/06/2025",
+    "name": "Vintage Wash Tee",
+    "brand": "UniStyle",
+    "price": 26900,
+    "discount": 18,
+    "category": "T-Shirt",
+    "sellerName": "RetroX Official",
+    "size": {
+      "XS": 8,
+      "S": 20,
+      "M": 28,
+      "L": 26,
+      "XL": 13
+    },
+    "thumbnail": "https://images.pexels.com/photos/4151865/pexels-photo-4151865.jpeg",
+    "image": [
+      {
+        "color": "Gray",
+        "colorImage": "https://images.pexels.com/photos/4151865/pexels-photo-4151865.jpeg"
+      }
+    ],
+    "Product_details": {
+      "Product_detail": "Vintage washed look",
+      "Size_Fit": "Loose",
+      "Material_Care": "Machine wash"
+    },
+    "specifications": {
+      "sleeveLength": "Short",
+      "printType": "Vintage",
+      "length": "Regular",
+      "liningFabric": "None",
+      "hemline": "Straight",
+      "type": "Retro",
+      "collar": "Round",
+      "closure": "None",
+      "numberOfPockets": 0,
+      "occasion": "Street"
+    },
+    "reviewRating": {
+      "rating": 4.5,
+      "verifiedBuyers": 180,
+      "reviews": []
+    },
+    "relatedProducts": [
+      5,
+      4,
+      6
+    ],
+    "Customer_Also_Like": [
+      1,
+      2,
+      3,
+      9
+    ]
+  },
+  {
+    "id": 10,
+    "MFG": "29/12/2025",
+    "name": "Casual Cotton Tee",
+    "brand": "StyleWear",
+    "price": 11000,
+    "discount": 10,
+    "category": "T-Shirt",
+    "sellerName": "StyleWear",
+    "size": {
+      "XS": 12,
+      "S": 15,
+      "M": 20,
+      "L": 25,
+      "XL": 18
+    },
+    "thumbnail": "https://images.pexels.com/photos/810775/pexels-photo-810775.jpeg",
+    "image": [
+      {
+        "color": "Default",
+        "colorImage": "https://images.pexels.com/photos/810775/pexels-photo-810775.jpeg"
+      }
+    ],
+    "Product_details": {
+      "Product_detail": "Soft cotton T-shirt for everyday comfort",
+      "Size_Fit": "Regular",
+      "Material_Care": "Machine wash cold"
+    },
+    "specifications": {
+      "sleeveLength": "Short",
+      "printType": "None",
+      "length": "Regular",
+      "liningFabric": "None",
+      "hemline": "Straight",
+      "type": "Crew Neck",
+      "collar": "Round",
+      "closure": "None",
+      "numberOfPockets": 0,
+      "occasion": "Casual"
+    },
+    "reviewRating": {
+      "rating": 4,
+      "verifiedBuyers": 40,
+      "reviews": [
+        {
+          "id": 0,
+          "rating": 4,
+          "comment": "Comfortable and soft material. Good for daily wear.",
+          "image": [
+            {
+              "id": 0,
+              "url": "https://images.pexels.com/photos/810775/pexels-photo-810775.jpeg"
+            }
+          ]
+        }
+      ]
+    },
+    "relatedProducts": [
+      1,
+      2,
+      3
+    ],
+    "Customer_Also_Like": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 11,
+    "MFG": "14/12/2025",
+    "name": "Premium Soft Tee",
+    "brand": "UrbanStyle",
+    "price": 23000,
+    "discount": 5,
+    "category": "T-Shirt",
+    "sellerName": "UrbanStyle",
+    "size": {
+      "XS": 10,
+      "S": 14,
+      "M": 21,
+      "L": 23,
+      "XL": 15
+    },
+    "thumbnail": "https://images.pexels.com/photos/3772612/pexels-photo-3772612.jpeg",
+    "image": [
+      {
+        "color": "Default",
+        "colorImage": "https://images.pexels.com/photos/3772612/pexels-photo-3772612.jpeg"
+      }
+    ],
+    "Product_details": {
+      "Product_detail": "Premium cotton tee with breathable fabric",
+      "Size_Fit": "Regular",
+      "Material_Care": "Machine wash"
+    },
+    "specifications": {
+      "sleeveLength": "Short",
+      "printType": "None",
+      "length": "Regular",
+      "liningFabric": "None",
+      "hemline": "Straight",
+      "type": "Round Neck",
+      "collar": "Round",
+      "closure": "None",
+      "numberOfPockets": 0,
+      "occasion": "Casual"
+    },
+    "reviewRating": {
+      "rating": 4.3,
+      "verifiedBuyers": 58,
+      "reviews": [
+        {
+          "id": 0,
+          "rating": 4.3,
+          "comment": "Nice quality and comfortable. Good fitting.",
+          "image": [
+            {
+              "id": 0,
+              "url": "https://images.pexels.com/photos/3772612/pexels-photo-3772612.jpeg"
+            }
+          ]
+        }
+      ]
+    },
+    "relatedProducts": [
+      1,
+      2,
+      3
+    ],
+    "Customer_Also_Like": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 12,
+    "MFG": "25/12/2025",
+    "name": "Everyday Comfort Tee",
+    "brand": "DailyWear",
+    "price": 49000,
+    "discount": 12,
+    "category": "T-Shirt",
+    "sellerName": "DailyWear",
+    "size": {
+      "XS": 11,
+      "S": 17,
+      "M": 19,
+      "L": 24,
+      "XL": 13
+    },
+    "thumbnail": "https://images.pexels.com/photos/2908175/pexels-photo-2908175.jpeg",
+    "image": [
+      {
+        "color": "Default",
+        "colorImage": "https://images.pexels.com/photos/2908175/pexels-photo-2908175.jpeg"
+      }
+    ],
+    "Product_details": {
+      "Product_detail": "Lightweight tee suitable for hot weather",
+      "Size_Fit": "Regular",
+      "Material_Care": "Hand wash or machine wash"
+    },
+    "specifications": {
+      "sleeveLength": "Short",
+      "printType": "None",
+      "length": "Regular",
+      "liningFabric": "None",
+      "hemline": "Straight",
+      "type": "Crew Neck",
+      "collar": "Round",
+      "closure": "None",
+      "numberOfPockets": 0,
+      "occasion": "Casual"
+    },
+    "reviewRating": {
+      "rating": 4.2,
+      "verifiedBuyers": 62,
+      "reviews": [
+        {
+          "id": 0,
+          "rating": 4.2,
+          "comment": "Very light and comfortable. Perfect for everyday use.",
+          "image": [
+            {
+              "id": 0,
+              "url": "https://images.pexels.com/photos/2908175/pexels-photo-2908175.jpeg"
+            }
+          ]
+        }
+      ]
+    },
+    "relatedProducts": [
+      1,
+      2,
+      3
+    ],
+    "Customer_Also_Like": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 13,
+    "MFG": "27/05/2025",
+    "name": "Minimalist Tee",
+    "brand": "SimpleWear",
+    "price": 60000,
+    "discount": 7,
+    "category": "T-Shirt",
+    "sellerName": "SimpleWear",
+    "size": {
+      "XS": 13,
+      "S": 16,
+      "M": 22,
+      "L": 26,
+      "XL": 14
+    },
+    "thumbnail": "https://images.pexels.com/photos/2421467/pexels-photo-2421467.jpeg",
+    "image": [
+      {
+        "color": "Default",
+        "colorImage": "https://images.pexels.com/photos/2421467/pexels-photo-2421467.jpeg"
+      }
+    ],
+    "Product_details": {
+      "Product_detail": "Minimalist design with clean lines",
+      "Size_Fit": "Regular",
+      "Material_Care": "Machine wash gentle"
+    },
+    "specifications": {
+      "sleeveLength": "Short",
+      "printType": "None",
+      "length": "Regular",
+      "liningFabric": "None",
+      "hemline": "Straight",
+      "type": "Crew Neck",
+      "collar": "Round",
+      "closure": "None",
+      "numberOfPockets": 0,
+      "occasion": "Casual"
+    },
+    "reviewRating": {
+      "rating": 4.4,
+      "verifiedBuyers": 80,
+      "reviews": [
+        {
+          "id": 0,
+          "rating": 4.4,
+          "comment": "Simple but stylish. Material feels premium.",
+          "image": [
+            {
+              "id": 0,
+              "url": "https://images.pexels.com/photos/2421467/pexels-photo-2421467.jpeg"
+            }
+          ]
+        }
+      ]
+    },
+    "relatedProducts": [
+      1,
+      2,
+      3
+    ],
+    "Customer_Also_Like": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 14,
+    "MFG": "09/01/2025",
+    "name": "SoftTouch Tee",
+    "brand": "ComfortWear",
+    "price": 70000,
+    "discount": 6,
+    "category": "T-Shirt",
+    "sellerName": "ComfortWear",
+    "size": {
+      "XS": 15,
+      "S": 18,
+      "M": 23,
+      "L": 28,
+      "XL": 16
+    },
+    "thumbnail": "https://images.pexels.com/photos/3094215/pexels-photo-3094215.jpeg",
+    "image": [
+      {
+        "color": "Default",
+        "colorImage": "https://images.pexels.com/photos/3094215/pexels-photo-3094215.jpeg"
+      }
+    ],
+    "Product_details": {
+      "Product_detail": "Extremely soft fabric with smooth texture",
+      "Size_Fit": "Regular",
+      "Material_Care": "Cold wash recommended"
+    },
+    "specifications": {
+      "sleeveLength": "Short",
+      "printType": "None",
+      "length": "Regular",
+      "liningFabric": "None",
+      "hemline": "Straight",
+      "type": "Round Neck",
+      "collar": "Round",
+      "closure": "None",
+      "numberOfPockets": 0,
+      "occasion": "Casual"
+    },
+    "reviewRating": {
+      "rating": 4.6,
+      "verifiedBuyers": 95,
+      "reviews": [
+        {
+          "id": 0,
+          "rating": 4.6,
+          "comment": "Very soft and premium feel. Highly recommended!",
+          "image": [
+            {
+              "id": 0,
+              "url": "https://images.pexels.com/photos/3094215/pexels-photo-3094215.jpeg"
+            }
+          ]
+        }
+      ]
+    },
+    "relatedProducts": [
+      1,
+      2,
+      3
+    ],
+    "Customer_Also_Like": [
+      1,
+      2,
+      3
+    ]
+  }
+]

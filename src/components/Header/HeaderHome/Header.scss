@@ -1,0 +1,215 @@
+.site-header {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid #eee;
+
+  &__top {
+    background: rgba(255, 255, 255, 1);
+    min-height: 50px;
+
+    .container {
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05);
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 8px 30px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      justify-content: space-between;
+    }
+
+    .left, .center, .right {
+      display: flex;
+      align-items: center;
+    }
+
+    .left {
+      gap: 200px;
+      flex: 0 0 auto;
+      .brand {
+        display: flex;
+        align-items: center;
+        padding: 8px 0;
+      }
+      .main-nav {
+        display: flex;
+        gap: 18px;
+        
+        a {
+          color: rgba(39, 39, 39, 1);
+          text-decoration: none;
+          font-size: 18px;
+          opacity: 0.8;
+          font-family: Libre Baskerville;
+
+          &:hover { opacity: 1; }
+        }
+      }
+    }
+
+    .center {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      .search {
+        width: 350px;
+        display: flex;
+        background: #f3f3f3;
+        padding: 6px;
+        border-radius: 6px;
+        align-items: center;
+        input {
+          border: none;
+          background: transparent;
+          outline: none;
+          padding: 8px 10px;
+          width: 100%;
+          font-size: 14px;
+        }
+        .search-btn {
+          background: transparent;
+          border: none;
+          cursor: pointer;
+          padding: 6px 8px;
+        }
+      }
+    }
+
+    .right {
+      gap: 16px;
+      flex: 0 0 auto;
+      .icon-btn {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        padding: 6px;
+      }
+      
+      /* --- WRAPPER CHO DROPDOWN --- */
+      .user-dropdown-wrapper {
+        position: relative;
+
+        .profile {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          cursor: pointer;
+          padding: 5px;
+          border-radius: 8px;
+          transition: background 0.2s;
+
+          &:hover {
+            background: #f5f5f5;
+          }
+
+          .username {
+            font-size: 14px;
+            font-weight: 500;
+            color: #333;
+          }
+        }
+
+        /* KHUNG MENU DROPDOWN BÊN DƯỚI */
+        .auth-dropdown-menu {
+          position: absolute;
+          top: 120%; /* Nằm ngay dưới chữ/icon */
+          right: 0;
+          width: 160px;
+          background-color: #fff;
+          border-radius: 8px;
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+          z-index: 999;
+          border: 1px solid #eee;
+
+          /* Nút Sign In */
+          .btn-signin {
+            width: 100%;
+            padding: 10px;
+            border-radius: 6px;
+            background-color: #002071;
+            color: #fff;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: opacity 0.2s;
+
+            &:hover { opacity: 0.9; }
+          }
+
+          /* Nút Register */
+          .btn-register {
+            width: 100%;
+            padding: 10px;
+            border-radius: 6px;
+            background-color: transparent;
+            color: #000;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+
+            &:hover { background-color: #f5f5f5; }
+          }
+
+          /* Nút Log out */
+          .btn-logout {
+            width: 100%;
+            padding: 10px;
+            border-radius: 6px;
+            background-color: transparent;
+            color: #d32f2f; /* Chữ đỏ */
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            text-align: left;
+            transition: background 0.2s;
+
+            &:hover { background-color: #f5f5f5; }
+          }
+        }
+      }
+    }
+  }
+
+  &__banner {
+    background: rgba(249, 250, 255, 1);
+    border-top: 3px solid rgba(0, 112, 255, 0.12);
+    .container {
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 10px 50px;
+      .promo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        color: rgba(39, 39, 39, 1);
+        font-size: 14px;
+        position: relative;
+        .invite {
+          color: rgba(0, 57, 143, 1);
+          font-weight: 600;
+          text-decoration: none;
+          opacity: 0.8;
+          &:hover { opacity: 1; }
+        }
+        .promo-close {
+          background: transparent;
+          border: none;
+          cursor: pointer;
+          font-size: 14px;
+          color: #999;
+          position: absolute;
+          right: 0;
+        }
+      }
+    }
+  }
+}

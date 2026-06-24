@@ -1,0 +1,72 @@
+.FilterWrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-left: auto;
+    transition: all 0.3s ease;
+  
+    &.active {
+        
+        .filterTitle {
+            color: rgba(39, 39, 39, 1);
+        }
+        .filterIcon {
+            color: rgba(39, 39, 39, 1);
+        }
+    }
+}
+
+.filterTitle {
+    font-family: Libre Baskerville;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(132, 132, 132, 1);
+    margin-right: 8px;
+    transition: color 0.3s ease;
+
+    &.activeTitle {
+        color: rgba(39, 39, 39, 1);
+    }
+}
+
+.filterIcon {
+    margin-left: 5px;
+    transition: color 0.3s ease;
+    color: rgba(132, 132, 132, 1);
+    &.activeIcon {
+        color:rgba(39, 39, 39, 1) ;
+    }
+}
+
+.SortWrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    
+
+}
+
+.SortIcon {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+
+    &.activeIcon {
+        transform: rotate(180deg);
+    }
+}
+
+.SortTitle {
+    font-family: Libre Baskerville;
+    font-weight: 700;
+    font-size: 24px;
+    color:  rgba(39, 39, 39, 1);
+    line-height: 100%;
+    letter-spacing: 0%;
+    transition: color 0.3s ease;
+
+}

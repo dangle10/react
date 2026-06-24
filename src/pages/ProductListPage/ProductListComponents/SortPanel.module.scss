@@ -1,0 +1,48 @@
+.sortPanel {
+  position: absolute;
+  top: calc(100% + 90px);
+  right: 0;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  min-width: 250px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+
+  h4 {
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+  }
+}
+
+.sortOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sortOption {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #555;
+  text-align: left;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: #f0f0f0;
+    border-color: #0066cc;
+    color: #0066cc;
+  }
+
+  &.active {
+    background: #0066cc;
+    color: #fff;
+    border-color: #0066cc;
+  }
+}

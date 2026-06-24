@@ -1,0 +1,86 @@
+.shopByCategory {
+  width: 90%;
+  display: flex;
+  gap: 16px;        
+  height: 400px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+
+}
+
+/* 3 CỘT BẰNG NHAU */
+.leftCard,
+.centerCard,
+.rightCard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* CÁC CARD CON */
+.topCard,
+.bottomCard,
+.bottomLeftCard,
+.bottomRightCard {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* ẢNH FULL CARD */
+.shopByCategory img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Tỉ lệ riêng cho layout */
+.leftCard img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.centerCard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.topCard {
+  height: 50%;
+}
+
+.bottomCard {
+  height: 50%;
+}
+
+.rightCard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.rightCard .topCard {
+  height: 50%;
+}
+
+.rightCard .bottomCard {
+  display: flex;
+  gap: 16px;
+  height: 50%;
+}
+
+.bottomLeftCard,
+.bottomRightCard {
+  flex: 1;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .shopByCategory {
+    flex-direction: column;
+  }
+}

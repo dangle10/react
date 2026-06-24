@@ -1,0 +1,73 @@
+.order {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: "Inter", sans-serif;
+}
+
+/* -------- Tiêu đề My Orders -------- */
+.titleContainer {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 25px;
+}
+
+.titleLeft {
+  font-family: Playfair Display;
+font-weight: 700;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+
+  color: #000;
+}
+
+.titleMiddle {
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+  color: #002b65; /* màu xanh đậm giống ảnh */
+}
+
+.titleRight {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #555;
+}
+
+/* -------- Danh sách Order Cards -------- */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* -------- Responsive -------- */
+@media (max-width: 900px) {
+  .order {
+    padding: 0 16px;
+  }
+  
+  .titleContainer {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 600px) {
+  .titleLeft,
+  .titleMiddle {
+    font-size: 22px;
+  }
+
+  .card {
+    gap: 20px;
+  }
+}

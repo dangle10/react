@@ -1,0 +1,140 @@
+.CommentCard {
+  position: relative;
+  width: 100%;
+  height: 400px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  padding: 20px 0;
+}
+/* ========================= CARD ========================= */
+.card {
+  width: 600px;
+  height: 350px;
+  background: #fff;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px;
+  text-align: center;
+
+  position: absolute;
+
+  transition: all 0.45s ease;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Card ở giữa – lớn nhất */
+.active {
+  left: 50%;
+  transform: translateX(-50%) scale(1);
+  opacity: 1;
+  z-index: 2;
+}
+
+/* Card trái */
+.prev {
+  left: 50%;
+  transform: translateX(calc(-50% - 105%)) scale(1);
+  opacity: 1;
+  z-index: 1;
+}
+
+/* Card phải */
+.next {
+  left: 50%;
+  transform: translateX(calc(-50% + 105%)) scale(1);
+  opacity: 1;
+  z-index: 1;
+}
+/* ========================= BUTTON ========================= */
+.nextButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  background: #4a4a4a;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  z-index: 10;
+
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: #2a2a2a;
+  }
+
+  svg {
+    fill: #e0e0e0;
+    width: 24px;
+    height: 24px;
+  }
+
+  &:first-of-type {
+    left: 12px;
+  }
+
+  &:last-of-type {
+    right: 12px;
+  }
+}
+
+/* ========================= AVATAR ========================= */
+.image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 14px;
+}
+
+/* ========================= RATE ========================= */
+.rate {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 14px;
+  margin-top: 10px;
+}
+
+.star {
+  width: 16px;
+  height: 16px;
+}
+
+/* số điểm */
+.rateNumber {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  font: playfair Display;
+}
+
+/* ========================= TEXT ========================= */
+.rateText {
+  font-family: Libre Baskerville;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+
+  margin-top: 10px;
+}

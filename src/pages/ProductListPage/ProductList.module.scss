@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 20px;
+}
+
+.SortingContainer {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    gap: 20px;
+    row-gap: 30px;
+    transition: grid-template-columns 0.3s ease;
+    flex: 1; // Chiếm hết không gian còn lại
+    margin-left: 30px; 
+
+    &.withFilter {
+        margin-left: 290px; // Giữ để product list dịch sang phải khi có filter
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+}
+
+.sidebar {
+position: absolute; // Hoặc static nếu muốn tĩnh hoàn toàn (thử cả hai để xem cái nào phù hợp)
+    top: 0; // Bắt đầu từ top của wrapper (thay vì fixed với viewport)
+    left: 0; // Hoặc left: 50px nếu cần offset
+    width: 250px;
+    padding: 20px;
+    // background-color:rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    z-index: 100; // Giữ để chồng lên nếu cần
+    animation: slideDown 0.3s ease;// Giới hạn chiều cao để không vượt viewport, và có scroll nội bộ nếu dài
+
+}
+.mainContainer {
+    display: flex; // Flex để sidebar và productList nằm ngang nhau
+    position: relative; // Parent cần relative để sticky hoạt động
+    // min-height: 100vh; // Đảm bảo chiều cao tối thiểu để sticky không bị cắt
+}
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.sortDropdown {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #f5f5f5;
+    padding: 15px 20px;
+    border-radius: 4px;
+    min-width: 200px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 100;
+}

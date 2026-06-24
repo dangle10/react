@@ -1,0 +1,4 @@
+- Youtube
+- Roadmap.sh
+- Chat GPT
+- ...

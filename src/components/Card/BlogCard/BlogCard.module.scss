@@ -1,0 +1,208 @@
+/* ===========================================
+   WRAPPER
+=========================================== */
+.BlogCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+
+/* ===========================================
+   CARD GROUP 1 (Scroll ngang)
+=========================================== */
+.BlogCardContainer {
+  display: flex;
+  gap: 50px;
+  overflow-x: auto;
+  padding-left: 80px;   /* đổi từ margin -> padding */
+  width: 100%;
+  box-sizing: border-box;
+
+
+  /* Ẩn thanh scroll */
+  &::-webkit-scrollbar {
+    height: 0;
+  }
+  scrollbar-width: none;
+}
+
+/* -------------------------------------------
+   CARD 1 (Blog)
+------------------------------------------- */
+.Card {
+  min-width: 330px; /* đảm bảo kích thước cố định */
+  width: 400px;
+  flex-shrink: 0;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform .3s ease;
+    display: flex;
+  &:hover {
+    transform: translateY(-4px);
+  }
+}
+
+.image img {
+    flex:6;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  flex: 4;
+  padding-left: 10px;
+  padding-right: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.subTitle {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font:Libre Baskerville;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15ppx;
+}
+
+.desc {
+    font:Libre Baskerville;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.bottom {
+    margin-top: 10px;
+    border-top:  1px solid rgba(39, 54, 59, 1);
+    border: length 2px;
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blogger {
+  font-size: 14px;
+  color: #444;
+}
+
+.more {
+  cursor: pointer;
+}
+
+
+/* ===========================================
+   BUTTON
+=========================================== */
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  button {
+    padding: 8px 22px;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: 0.2s linear;
+
+    &:hover {
+      background: #000;
+      color: white;
+    }
+  }
+}
+
+
+/* ===========================================
+   CARD GROUP 2 (5 card trên 1 hàng)
+=========================================== */
+.BlogCardContainer2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding-left: 80px;   /* fix overflow */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* -------------------------------------------
+   CARD 2 (Service / Icon)
+------------------------------------------- */
+.Card2 {
+    width: 250px;
+  padding: 22px 14px;
+  border-radius: 12px;
+  background: rgba(240, 240, 240, 1);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: all .25s ease;
+    color: rgba(39, 39, 39, 1);
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+  }
+}
+
+.icon {
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 17px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.content {
+//   margin-bottom: 14px;
+//     margin-bottom: 14px;
+margin-left: 20px;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.4;
+}
+
+
+/* ===========================================
+   RESPONSIVE
+=========================================== */
+
+@media (max-width: 1024px) {
+  .BlogCardContainer2 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .BlogCardContainer2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .BlogCardContainer2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .Card {
+    min-width: 260px;
+  }
+}
